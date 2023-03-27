@@ -5,6 +5,15 @@ double rerata(double a, double b) {
     return (a + b) / 2;
 }
 
+string status(double rata) {
+    if (rata >= 70)
+        return "Lulus";
+    else
+        return "Gagal";
+}
+
+
+
 int main()
 {
     std::cout << "Hello World!\n";
